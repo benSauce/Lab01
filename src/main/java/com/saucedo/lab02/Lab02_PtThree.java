@@ -11,17 +11,20 @@ public class Lab02_PtThree {
         int n = input.nextInt();
 
         // Display Sum
-        System.out.println("Recursive fractional Sum of " + n + " is " + sumOfFrac(n));
+        System.out.println("Recursive fractional Sum of " + n + " is " + sumOfFracDen(n));
     }
 
     /** Return added sum of fractions for the specified number */
-    public static double sumOfFrac(int n) {
+    public static double sumOfFracDen(double n) {
+        if (n == 0){
+            return 0;
+        }
         if (n == 1) {
             // Base case
-            return 1/3;
+            return ((double) 1 /3);
         }
         else {
-            return (n/(2 * n + 1)) + sumOfFrac( n-1); // Recursive call
+            return 1.0 /n + sumOfFracDen( n-1); // Recursive call
         }
     }
 }
