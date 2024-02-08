@@ -13,16 +13,16 @@ public class Lab02_Pt6_Two {
         // Display Reverse Order
         System.out.println("Original int: \n" + n);
         System.out.println("Reverse Order: ");
-        reverseNumOrder(n);
+        reverseDisplay(n);
     }
 
-    public static void reverseNumOrder(int n) {
+    public static void reverseDisplay(int n) {
         if (n < 10) {
             // Base case
             System.out.print(n);
         } else {
             System.out.print(n%10);
-            reverseNumOrder(n/10); // Recursive call
+            reverseDisplay(n/10); // Recursive call
         }
     }
 

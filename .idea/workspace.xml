@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Updated Lab 2 pt 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" afterDir="false" />
+    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Updated Lab 2 pt 6.1 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt6_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt6_Two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Application.HelloApplication.executor": "Run",
     "Application.Lab01.executor": "Run",
     "Application.Lab01_Pt2.executor": "Run",
+    "Application.Lab02_Pt6_Two.executor": "Run",
     "Application.Lab02_PtFive.executor": "Run",
     "Application.Lab02_PtFour.executor": "Run",
     "Application.Lab02_PtSix.executor": "Run",
@@ -70,6 +72,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Lab02_PtSix">
+    <configuration name="Lab02_Pt6_Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt6_Two" />
+      <module name="Lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab02_PtFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_PtFive" />
       <module name="Lab01" />
@@ -122,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab02_PtTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_PtTwo" />
-      <module name="Lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saucedo.lab02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lab02_PtSix" />
+        <item itemvalue="Application.Lab02_Pt6_Two" />
         <item itemvalue="Application.Lab02_PtFive" />
         <item itemvalue="Application.Lab02_PtFour" />
         <item itemvalue="Application.Lab02_PtThree" />
-        <item itemvalue="Application.Lab02_PtTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707374228619</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated Lab 2 pt 6.1 complete">
+      <option name="closed" value="true" />
+      <created>1707377488380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707377488380</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +238,7 @@
     <MESSAGE value="Updated Lab 2 pt 2." />
     <MESSAGE value="Updated Lab 2 pt 4" />
     <MESSAGE value="Updated Lab 2 pt 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab 2 pt 5" />
+    <MESSAGE value="Updated Lab 2 pt 6.1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab 2 pt 6.1 complete" />
   </component>
 </project>
