@@ -7,24 +7,19 @@ public class Lab02_Pt6_Two {
     public static void main(String[] args) {
         // Create a Scanner
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a non negative integer: ");
-        int n = input.nextInt();
+        System.out.print("Enter a String: ");
+        String s = input.nextLine();
 
         // Display Reverse Order
-        System.out.println("Original int: \n" + n);
+        System.out.println("Original String: \n" + s);
         System.out.println("Reverse Order: ");
-        reverseDisplay(n);
+        reverseDisplay(s);
     }
 
-    public static void reverseDisplay(int n) {
-        if (n < 10) {
-            // Base case
-            System.out.print(n);
+    public static void reverseDisplay(String s) {
+        if ((null == s) || (s.length() <= 1)) {
+            System.out.println(s);
         } else {
-            System.out.print(n%10);
-            reverseDisplay(n/10); // Recursive call
         }
     }
-
-
 }

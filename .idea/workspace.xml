@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Updated Lab 2 pt 6.1 complete">
+    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Updated Lab 2 pt 6.2 WiP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt6_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt6_Two.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" afterDir="false" />
@@ -215,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707377488380</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Lab 2 pt 6.2 WiP">
+      <option name="closed" value="true" />
+      <created>1707378683532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707378683532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +247,7 @@
     <MESSAGE value="Updated Lab 2 pt 4" />
     <MESSAGE value="Updated Lab 2 pt 5" />
     <MESSAGE value="Updated Lab 2 pt 6.1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab 2 pt 6.1 complete" />
+    <MESSAGE value="Updated Lab 2 pt 6.2 WiP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab 2 pt 6.2 WiP" />
   </component>
 </project>
