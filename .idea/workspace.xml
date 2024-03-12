@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Updated Lab 2 pt 6.2 WiP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/EightQueens.java" afterDir="false" />
+    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="8Queens attempt failed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/image/queen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bsauce/IdeaProjects/Lab01/src/main/java/com/saucedo/lab01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,8 +71,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.saucedo.lab01" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/saucedo/lab01" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Lab01_Pt2">
+  <component name="RunManager" selected="Application.EightQueens">
     <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.EightQueens" />
       <module name="Lab01" />
@@ -139,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EightQueens" />
         <item itemvalue="Application.Lab01_Pt2" />
         <item itemvalue="Application.Lab01" />
-        <item itemvalue="Application.EightQueens" />
         <item itemvalue="Application.Lab02_PtThree" />
         <item itemvalue="Application.Lab02_Recursion" />
       </list>
@@ -177,7 +181,7 @@
       <workItem from="1707944188004" duration="12000" />
       <workItem from="1707944418082" duration="40000" />
       <workItem from="1710204464961" duration="540000" />
-      <workItem from="1710260783203" duration="978000" />
+      <workItem from="1710260783203" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit?">
       <option name="closed" value="true" />
@@ -235,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707378683532</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8Queens attempt failed">
+      <option name="closed" value="true" />
+      <created>1710261785477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710261785477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +272,8 @@
     <MESSAGE value="Updated Lab 2 pt 5" />
     <MESSAGE value="Updated Lab 2 pt 6.1 complete" />
     <MESSAGE value="Updated Lab 2 pt 6.2 WiP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab 2 pt 6.2 WiP" />
+    <MESSAGE value="8Queens attempt failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="8Queens attempt failed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
