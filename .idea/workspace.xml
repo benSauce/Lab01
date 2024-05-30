@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="working on review quiz">
+    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="ending ReviewQuiz">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/Loan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/image/ReviewQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/image/ReviewQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/Lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/Lab01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/ReviewQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/ReviewQuiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,39 +41,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EightQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab01_Pt2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_Pt6_Two.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_PtFive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_PtFour.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_PtSix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_PtThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_PtTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab02_Recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReviewQuiz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.saucedo.lab01.ReviewQuiz.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bsauce/Programming/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EightQueens.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.Lab01.executor": "Run",
+    "Application.Lab01_Pt2.executor": "Run",
+    "Application.Lab02_Pt6_Two.executor": "Run",
+    "Application.Lab02_PtFive.executor": "Run",
+    "Application.Lab02_PtFour.executor": "Run",
+    "Application.Lab02_PtSix.executor": "Run",
+    "Application.Lab02_PtThree.executor": "Run",
+    "Application.Lab02_PtTwo.executor": "Run",
+    "Application.Lab02_Recursion.executor": "Run",
+    "Application.LoanCalculator.executor": "Run",
+    "Application.ReviewQuiz.executor": "Run",
+    "Application.com.saucedo.lab01.ReviewQuiz.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/bsauce/Programming/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.saucedo.lab01" />
@@ -80,20 +83,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/saucedo/lab01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.saucedo.lab01.ReviewQuiz">
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.EightQueens" />
-      <module name="Lab01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.saucedo.lab01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lab01">
     <configuration name="Lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.Lab01" />
       <module name="Lab01" />
@@ -109,6 +99,19 @@
     </configuration>
     <configuration name="Lab01_Pt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.Lab01_Pt2" />
+      <module name="Lab01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedo.lab01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.LoanCalculator" />
       <module name="Lab01" />
       <extension name="coverage">
         <pattern>
@@ -148,19 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LoanCalculator" />
       <item itemvalue="Application.com.saucedo.lab01.ReviewQuiz" />
-      <item itemvalue="Application.EightQueens" />
       <item itemvalue="Application.Lab01" />
       <item itemvalue="Application.Lab01_Pt2" />
       <item itemvalue="Application.ReviewQuiz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab01" />
+        <item itemvalue="Application.LoanCalculator" />
         <item itemvalue="Application.com.saucedo.lab01.ReviewQuiz" />
         <item itemvalue="Application.ReviewQuiz" />
-        <item itemvalue="Application.Lab01" />
         <item itemvalue="Application.Lab01_Pt2" />
-        <item itemvalue="Application.EightQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +204,10 @@
       <workItem from="1717096321514" duration="44000" />
       <workItem from="1717097899352" duration="451000" />
       <workItem from="1717099778821" duration="1531000" />
+      <workItem from="1717101926055" duration="2739000" />
+      <workItem from="1717105403289" duration="5000" />
+      <workItem from="1717106156113" duration="97000" />
+      <workItem from="1717106754732" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit?">
       <option name="closed" value="true" />
@@ -282,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717101223638</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="moved ReviewQuiz">
+      <option name="closed" value="true" />
+      <created>1717101979242</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717101979242</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +325,8 @@
     <MESSAGE value="8Queens attempt failed" />
     <MESSAGE value="8Queens attempt failed after adding image folder" />
     <MESSAGE value="working on review quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on review quiz" />
+    <MESSAGE value="moved ReviewQuiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved ReviewQuiz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

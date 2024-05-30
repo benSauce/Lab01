@@ -199,6 +199,10 @@ public class ReviewQuiz extends Application {
             text.setStroke(Color.RED);
         } else if (e.getSource()==(radioButton[1])){
             text.setStroke(Color.GREEN);
+        } else if (e.getSource()==(radioButton[2])){
+            text.setStroke(Color.BLUE);
+        } else if (e.getSource()==(radioButton[3])){
+            text.setStroke(Color.YELLOW);
         }
 
     }
