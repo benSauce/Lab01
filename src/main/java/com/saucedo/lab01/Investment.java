@@ -1,20 +1,20 @@
 package com.saucedo.lab01;
 
-public class Loan {
+public class Investment {
     private double annualInterestRate;
     private int numberOfYears;
     private double loanAmount;
     private java.util.Date loanDate;
     /** Default constructor */
-    public Loan() {
+    public Investment() {
         this(2.5, 1, 1000);
     }
 
     /** Construct a loan with specified annual interest rate,
      number of years, and loan amount
      */
-    public Loan(double annualInterestRate, int numberOfYears,
-                double loanAmount) {
+    public Investment(double annualInterestRate, int numberOfYears,
+                      double loanAmount) {
         this.annualInterestRate = annualInterestRate;
         this.numberOfYears = numberOfYears;
         this.loanAmount = loanAmount;
