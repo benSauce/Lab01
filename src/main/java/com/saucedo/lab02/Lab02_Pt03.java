@@ -2,7 +2,7 @@ package com.saucedo.lab02;
 
 import java.util.Scanner;
 
-public class Lab02_PtThree {
+public class Lab02_Pt03 {
     //main method
     public static void main(String[] args) {
         // Create a Scanner
@@ -24,7 +24,7 @@ public class Lab02_PtThree {
             return ((double) 1 /3);
         }
         else {
-            return 1.0 /n + sumOfFracDen( n-1); // Recursive call
+            return n /(( 2.0 * n) + 1) + sumOfFracDen( n-1); // Recursive call
         }
     }
 }

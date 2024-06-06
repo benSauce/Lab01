@@ -2,7 +2,7 @@ package com.saucedo.lab02;
 
 import java.util.Scanner;
 
-public class Lab02_PtFour {
+public class Lab02_Pt02 {
     //main method
     public static void main(String[] args) {
         // Create a Scanner
@@ -11,20 +11,20 @@ public class Lab02_PtFour {
         int n = input.nextInt();
 
         // Display Sum
-        System.out.println("Recursive fractional Sum of " + n + " is " + sumOfFracDen(n));
+        System.out.println("Recursive fractional Sum of " + n + " is " + sumOfFrac(n));
     }
 
     /** Return added sum of fractions for the specified number */
-    public static double sumOfFracDen(double n) {
+    public static double sumOfFrac(int n) {
         if (n == 0){
             return 0;
         }
         if (n == 1) {
             // Base case
-            return ((double) 1 /2);
+            return 1;
         }
-        else {
-            return n / (n + 1) + sumOfFracDen( n-1); // Recursive call
+         else {
+            return 1.0 /n + sumOfFrac( n-1); // Recursive call
         }
     }
 }

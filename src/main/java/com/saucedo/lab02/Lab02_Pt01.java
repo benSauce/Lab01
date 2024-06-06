@@ -1,6 +1,6 @@
 package com.saucedo.lab02;
 import java.util.Scanner;
-public class Lab02_Recursion {
+public class Lab02_Pt01 {
     //main method
     public static void main(String[] args) {
     // Create a Scanner

@@ -2,7 +2,7 @@ package com.saucedo.lab02;
 
 import java.util.Scanner;
 
-public class Lab02_PtSix {
+public class Lab02_Pt06_01 {
     //main method
     public static void main(String[] args) {
         // Create a Scanner

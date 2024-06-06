@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Restarting Lab 01">
+    <list default="true" id="73a4d56a-94b4-4397-917d-1fa6c752e8f4" name="Changes" comment="Lab01 break for home">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt06_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt06_04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/Investment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/Investment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/InvestmentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab01/InvestmentCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt6_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt06_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt06_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_PtTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedo/lab02/Lab02_Pt01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +43,6 @@
     &quot;accountId&quot;: &quot;cb6a3150-375f-4d81-bd41-211f358e4f47&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -56,10 +56,19 @@
   "keyToString": {
     "Application.EightQueens.executor": "Run",
     "Application.HelloApplication.executor": "Run",
-    "Application.InvestmentCalculator.executor": "Debug",
+    "Application.InvestmentCalculator.executor": "Run",
     "Application.Lab01 (1).executor": "Run",
     "Application.Lab01.executor": "Run",
     "Application.Lab01_Pt2.executor": "Run",
+    "Application.Lab02_Pt01.executor": "Run",
+    "Application.Lab02_Pt02.executor": "Run",
+    "Application.Lab02_Pt03.executor": "Run",
+    "Application.Lab02_Pt04.executor": "Run",
+    "Application.Lab02_Pt05.executor": "Run",
+    "Application.Lab02_Pt06_01.executor": "Run",
+    "Application.Lab02_Pt06_02.executor": "Run",
+    "Application.Lab02_Pt06_03.executor": "Run",
+    "Application.Lab02_Pt06_04.executor": "Run",
     "Application.Lab02_Pt6_Two.executor": "Run",
     "Application.Lab02_PtFive.executor": "Run",
     "Application.Lab02_PtFour.executor": "Run",
@@ -98,13 +107,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/saucedo/lab01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvestmentCalculator">
-    <configuration name="InvestmentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.InvestmentCalculator" />
+  <component name="RunManager" selected="Application.Lab02_Pt06_04">
+    <configuration name="Lab02_Pt04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt04" />
       <module name="Lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedo.lab01.*" />
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.Lab01" />
+    <configuration name="Lab02_Pt05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt05" />
       <module name="Lab01" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/Programming/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedo.lab01.*" />
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab01_Pt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.Lab01_Pt2" />
+    <configuration name="Lab02_Pt06_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt06_01" />
       <module name="Lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedo.lab01.*" />
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReviewQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab01.ReviewQuiz" />
+    <configuration name="Lab02_Pt06_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt06_03" />
       <module name="Lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedo.lab01.*" />
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.saucedo.Lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.saucedo.Lab01" />
+    <configuration name="Lab02_Pt06_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.saucedo.lab02.Lab02_Pt06_04" />
       <module name="Lab01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.saucedo.*" />
+          <option name="PATTERN" value="com.saucedo.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,27 +174,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InvestmentCalculator" />
-      <item itemvalue="Application.ReviewQuiz" />
-      <item itemvalue="Application.Lab01_Pt2" />
-      <item itemvalue="Application.Lab01" />
-      <item itemvalue="Application.com.saucedo.Lab01" />
+      <item itemvalue="Application.Lab02_Pt04" />
+      <item itemvalue="Application.Lab02_Pt05" />
+      <item itemvalue="Application.Lab02_Pt06_01" />
+      <item itemvalue="Application.Lab02_Pt06_03" />
+      <item itemvalue="Application.Lab02_Pt06_04" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InvestmentCalculator" />
-        <item itemvalue="Application.ReviewQuiz" />
-        <item itemvalue="Application.Lab01_Pt2" />
-        <item itemvalue="Application.Lab01" />
-        <item itemvalue="Application.com.saucedo.Lab01" />
+        <item itemvalue="Application.Lab02_Pt06_04" />
+        <item itemvalue="Application.Lab02_Pt06_03" />
+        <item itemvalue="Application.Lab02_Pt06_01" />
+        <item itemvalue="Application.Lab02_Pt05" />
+        <item itemvalue="Application.Lab02_Pt04" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
       </set>
     </attachedChunks>
   </component>
@@ -229,6 +236,9 @@
       <workItem from="1717139109742" duration="2000" />
       <workItem from="1717139292317" duration="416000" />
       <workItem from="1717139712809" duration="4407000" />
+      <workItem from="1717533829114" duration="48000" />
+      <workItem from="1717704584619" duration="34000" />
+      <workItem from="1717709494908" duration="4756000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit?">
       <option name="closed" value="true" />
